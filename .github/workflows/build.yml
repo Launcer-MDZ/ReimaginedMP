@@ -27,6 +27,7 @@ jobs:
           mkdir -p staging
 
           unzip -o Plugin.zip -d staging
+          unzip -o images.zip -d staging
           unzip -o assets.zip -d staging
           unzip -o media.zip -d staging
 
